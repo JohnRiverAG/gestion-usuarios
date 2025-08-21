@@ -48,7 +48,8 @@ source env/bin/activate  # En Windows: env\Scripts\activate
 
 4. **Aplicar migraciones:**
    ```bash
-   python manage.py migrate
+   python manage.py makemigrations usuarios
+   python manage.py migrates
 
 5. **Ejecutar servidor:**
    ```bash
