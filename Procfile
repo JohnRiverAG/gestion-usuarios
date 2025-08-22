@@ -1,1 +1,1 @@
-web: gunicorn gestion-usuario.wsgi
+web: gunicorn gestion-usuarios.wsgi
