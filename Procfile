@@ -1,1 +1,1 @@
-web: gunicorn gestion_usuarios.wsgi
+web: gunicorn store.wsgi --log-file
